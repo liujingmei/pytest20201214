@@ -1,0 +1,325 @@
+2020-11-30 09:40:21,958 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 09:40:21,958 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 09:40:21,968 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 09:40:22,098 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 09:40:22,108 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 09:40:22,228 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 09:40:22,228 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 09:40:22,358 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 09:40:22,368 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 09:40:22,478 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:32:16,028 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:32:16,028 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:33:19,247 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:33:19,247 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:33:19,247 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:33:19,247 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:33:19,418 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:33:19,418 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:33:19,418 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:33:37,011 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:33:37,011 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:33:37,011 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:33:37,011 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:33:37,161 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:33:37,161 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:33:37,161 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:33:37,161 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:33:37,161 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:33:37,161 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:34:01,346 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:34:01,346 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:34:01,346 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:34:01,346 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:34:01,486 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:34:01,486 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:34:21,261 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:34:21,261 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:34:21,261 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:34:21,261 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:34:21,411 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:34:21,411 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:34:21,411 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:34:21,411 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:34:21,411 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:34:21,411 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:34:21,521 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:40:22,582 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:40:22,582 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:40:22,582 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:40:22,582 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:40:22,733 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:40:22,733 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:40:22,733 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:40:22,733 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:40:22,733 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:40:22,733 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:40:22,843 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:42:01,448 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:42:01,448 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:42:01,448 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:42:01,448 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:42:01,588 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:42:01,588 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:42:01,588 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:42:01,588 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:42:01,588 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:42:01,588 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:42:01,718 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:51:48,485 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:51:48,486 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:51:48,486 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:51:48,486 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:51:48,621 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:51:48,621 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:51:48,621 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:51:48,622 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:51:48,622 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:51:48,622 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:51:48,724 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:51:48,771 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:51:48,771 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:51:48,772 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:51:48,880 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:51:48,887 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:51:48,998 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:51:49,007 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:51:49,130 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:51:49,139 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:51:49,250 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:53:56,784 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:53:56,784 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:53:56,784 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:53:56,784 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:53:56,964 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:53:56,964 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:53:56,964 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:53:56,966 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:53:56,966 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:53:56,966 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:53:57,067 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:53:57,117 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:53:57,118 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:53:57,119 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:53:57,225 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:53:57,232 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:53:57,339 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:53:57,345 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:53:57,460 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:53:57,467 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:53:57,574 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:55:05,228 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:55:05,228 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:55:05,228 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:55:05,228 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:55:05,439 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:55:05,439 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:55:05,439 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:55:05,441 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:55:05,442 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:55:05,442 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:55:05,554 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:55:05,601 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:55:05,602 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:55:05,602 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:55:05,721 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:55:05,731 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:55:05,915 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:55:05,922 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:55:06,045 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:55:06,051 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:55:06,186 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:57:07,200 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:57:07,201 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:57:07,201 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:57:07,201 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:57:07,350 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:57:07,351 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:57:07,351 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:57:07,352 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:57:07,352 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:57:07,353 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:57:07,464 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:57:07,515 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:57:07,516 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:57:07,516 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:57:07,633 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:57:07,640 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:57:07,746 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:57:07,752 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:57:07,878 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:57:07,886 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:57:08,002 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:58:45,258 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:58:45,259 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:58:45,259 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:58:45,259 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:58:45,400 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:58:45,400 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:58:45,401 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:58:45,402 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:58:45,402 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:58:45,402 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:58:45,506 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:58:45,553 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:58:45,554 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:58:45,554 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:58:45,664 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:58:45,670 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:58:45,777 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:58:45,783 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:58:45,903 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:58:45,911 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:58:46,024 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:59:53,418 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:59:53,419 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:59:53,419 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 10:59:53,419 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 10:59:53,571 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 10:59:53,571 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 10:59:53,571 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 10:59:53,573 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 10:59:53,573 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 10:59:53,573 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 10:59:53,686 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 10:59:53,794 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 10:59:53,795 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 10:59:53,797 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:59:53,913 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:59:53,922 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:59:54,038 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:59:54,043 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:59:54,157 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 10:59:54,163 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 10:59:54,273 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:00:48,192 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:00:48,192 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:00:48,192 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 11:00:48,192 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'username': 'yaoyao', 'password': 'yaoyao'}
+2020-11-30 11:00:48,333 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 11:00:48,333 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 11:00:48,333 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 11:00:48,335 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 11:00:48,335 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 11:00:48,335 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 11:00:48,437 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 11:00:48,485 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:00:48,485 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:00:48,486 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:00:48,593 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:00:48,599 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:00:48,708 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:00:48,715 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:00:48,826 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:00:48,833 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:00:48,947 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:06:14,426 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 11:06:14,426 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 11:06:14,426 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:06:14,426 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:06:14,426 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 11:06:14,427 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-30 11:06:14,583 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 11:06:14,584 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 11:06:14,585 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 11:06:14,585 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 11:06:14,743 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 11:06:14,743 INFO [root] [api_buy.py (apiBuy:25] - 下订单接口的响应的JUMP_URL是：None
+2020-11-30 11:06:14,752 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:06:14,752 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:06:14,753 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:06:14,860 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:06:14,868 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:06:14,985 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:06:14,992 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:06:15,114 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:06:15,121 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:06:15,247 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:34:01,739 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 11:34:01,739 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 11:34:01,739 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:34:01,739 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:34:01,739 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 11:34:01,739 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-30 11:34:01,899 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 11:34:01,909 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 11:34:01,909 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 11:34:01,909 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 11:34:02,059 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 11:34:02,059 INFO [root] [api_buy.py (apiBuy:25] - 下订单接口的响应的JUMP_URL是：None
+2020-11-30 11:34:02,059 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:34:02,069 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:34:02,069 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:34:02,209 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:34:02,209 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:34:02,329 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:34:02,339 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:34:02,459 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:34:02,469 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:34:02,590 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:35:31,259 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 11:35:31,259 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 11:35:31,259 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:35:31,259 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:35:31,259 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 11:35:31,259 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-30 11:35:31,419 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 11:35:31,419 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 11:35:31,419 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 11:35:31,419 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 11:35:31,579 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 11:35:31,579 INFO [root] [api_buy.py (apiBuy:25] - 下订单接口的响应的JUMP_URL是：None
+2020-11-30 11:35:31,589 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:35:31,589 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:35:31,589 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:35:31,719 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:35:31,729 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:35:31,849 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:35:31,849 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:35:31,979 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:35:31,999 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:35:32,129 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:36:24,299 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 11:36:24,299 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 11:36:24,299 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:36:24,299 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:36:24,299 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 11:36:24,299 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-30 11:36:24,439 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是<Response [200]>
+2020-11-30 11:36:24,439 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 11:36:24,439 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 11:36:24,439 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 11:36:24,609 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：<Response [200]>
+2020-11-30 11:36:24,609 INFO [root] [api_buy.py (apiBuy:25] - 下订单接口的响应的JUMP_URL是：None
+2020-11-30 11:36:24,619 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:36:24,619 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:36:24,619 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:36:24,749 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:36:24,749 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:36:24,859 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:36:24,859 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:36:24,989 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:36:24,999 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:36:25,129 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:42:05,620 INFO [root] [api_buy.py (__init__:7] - 开始获取下订单接口的URL：
+2020-11-30 11:42:05,620 INFO [root] [api_buy.py (__init__:9] - 下订单接口的URL地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+2020-11-30 11:42:05,620 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:42:05,620 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:42:05,620 INFO [root] [api_loginmtx.py (loginsucess:26] - 准备发起登录成功的请求
+2020-11-30 11:42:05,620 INFO [root] [api_loginmtx.py (loginsucess:28] - 登录成功的data数据是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-11-30 11:42:05,770 INFO [root] [api_loginmtx.py (loginsucess:30] - 登录成功的响应值是{'msg': '登录成功', 'code': 0, 'data': {'body_html': ''}}
+2020-11-30 11:42:05,770 INFO [root] [api_buy.py (apiBuy:11] - 开始获取下订单接口的data数据：
+2020-11-30 11:42:05,770 INFO [root] [api_buy.py (apiBuy:20] - 开始获取下订单接口的data数据是：{'goods_id': 1, 'stock': 1, 'buy_type': 'goods', 'address_id': 1290, 'payment_id': 1, 'spec': ''}
+2020-11-30 11:42:05,780 INFO [root] [api_buy.py (apiBuy:21] - 开始发送下订单接口请求：
+2020-11-30 11:42:05,930 INFO [root] [api_buy.py (apiBuy:23] - 获取下订单接口的响应：{'msg': '提交成功', 'code': 0, 'data': {'order': {'id': '6453', 'order_no': '20201130114206042216', 'user_id': '151', 'user_note': '', 'express_id': '0', 'express_number': '', 'payment_id': '1', 'status': '1', 'pay_status': '0', 'extension_data': '', 'buy_number_count': '1', 'increase_price': '0.00', 'preferential_price': '0.00', 'price': '2100.00', 'total_price': '2100.00', 'pay_price': '0.00', 'refund_price': '0.00', 'returned_quantity': '0', 'client_type': 'pc', 'order_model': '0', 'pay_time': '0', 'confirm_time': '1606707726', 'delivery_time': '0', 'cancel_time': '0', 'collect_time': '0', 'close_time': '0', 'comments_time': '0', 'is_comments': '0', 'user_is_comments': '0', 'is_delete_time': '0', 'user_is_delete_time': '0', 'add_time': '1606707726', 'upd_time': '0'}, 'jump_url': 'http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/6453.html'}}
+2020-11-30 11:42:05,930 INFO [root] [api_buy.py (apiBuy:25] - 下订单接口的响应的JUMP_URL是：None
+2020-11-30 11:42:05,930 INFO [root] [api_loginmtx.py (__init__:7] - 开始获取登录接口的URL：
+2020-11-30 11:42:05,930 INFO [root] [api_loginmtx.py (__init__:9] - 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+2020-11-30 11:42:05,930 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:42:06,100 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:42:06,110 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': '', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:42:06,220 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:42:06,220 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'lwx', 'pwd': 'yaoyao'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:42:06,350 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>
+2020-11-30 11:42:06,360 INFO [root] [api_loginmtx.py (login:16] - 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+2020-11-30 11:42:06,470 INFO [root] [api_loginmtx.py (login:18] - 获取响应值是<Response [200]>

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:api_loginmtx.py:7 开始获取登录接口的URL：
+[32mINFO    [0m root:api_loginmtx.py:9 登录接口的URL是http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html
+[32mINFO    [0m root:api_loginmtx.py:16 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': ''}，header是{'X-Requested-With': 'XMLHttpRequest'}
+[32mINFO    [0m root:api_loginmtx.py:18 获取响应值是{'msg': '密码格式 6~18 个字符之间', 'code': -2, 'data': ''}

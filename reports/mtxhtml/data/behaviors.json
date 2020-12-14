@@ -1,0 +1,103 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "码同学商城功能测试",
+    "children" : [ {
+      "name" : "码同学商城登录功能测试",
+      "children" : [ {
+        "name" : "码同学商城登录测试",
+        "uid" : "e780c69ee06bcc26",
+        "parentUid" : "c491d080807f16c8e3e76d20a9dc9fe0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607674941325,
+          "stop" : 1607674941461,
+          "duration" : 136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '', 'exp': '密码格式 6~18 个字符之间'}" ]
+      }, {
+        "name" : "码同学商城登录测试",
+        "uid" : "e7a2fb76704b0ef",
+        "parentUid" : "c491d080807f16c8e3e76d20a9dc9fe0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607674941467,
+          "stop" : 1607674941585,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': '', 'pwd': 'yaoyao', 'exp': '登录账号有误'}" ]
+      }, {
+        "name" : "码同学商城登录测试",
+        "uid" : "3d25873a1c61c5f4",
+        "parentUid" : "c491d080807f16c8e3e76d20a9dc9fe0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607674941591,
+          "stop" : 1607674941715,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'lwx', 'pwd': 'yaoyao', 'exp': '帐号不存在'}" ]
+      }, {
+        "name" : "码同学商城登录测试",
+        "uid" : "f6f90c26e6e4bf20",
+        "parentUid" : "c491d080807f16c8e3e76d20a9dc9fe0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607674941721,
+          "stop" : 1607674941852,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '123456', 'exp': '密码错误'}" ]
+      } ],
+      "uid" : "c491d080807f16c8e3e76d20a9dc9fe0"
+    } ],
+    "uid" : "476fec706a6c39d9e571980fcf85a4a7"
+  }, {
+    "name" : "码同学商城下订单功能",
+    "children" : [ {
+      "name" : "码同学商城下单提交成供",
+      "uid" : "42e5aaddbd93cd02",
+      "parentUid" : "8d8a0aeb2a4dbca6b8a40956be5b3065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607674942000,
+        "stop" : 1607674942159,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8d8a0aeb2a4dbca6b8a40956be5b3065"
+  }, {
+    "name" : "码同学商城接口测试",
+    "children" : [ {
+      "name" : "码同学商城支付接口测试",
+      "children" : [ {
+        "name" : "支付成功测试",
+        "uid" : "70c3041e8768a8b9",
+        "parentUid" : "7654dbd449f174e9d30f21975a4a36ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607674942484,
+          "stop" : 1607674943238,
+          "duration" : 754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7654dbd449f174e9d30f21975a4a36ca"
+    } ],
+    "uid" : "6ac58409afadd3f7119cda7299817d4d"
+  } ]
+}

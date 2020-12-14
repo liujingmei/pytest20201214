@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 11 16:22:21 CST 2020","Fri Dec 11 16:22:21 CST 2020","136","testcase","test_login","TestLogin","","","码同学商城登录测试",""
+"passed","Fri Dec 11 16:22:21 CST 2020","Fri Dec 11 16:22:21 CST 2020","118","testcase","test_login","TestLogin","","","码同学商城登录测试",""
+"passed","Fri Dec 11 16:22:21 CST 2020","Fri Dec 11 16:22:21 CST 2020","131","testcase","test_login","TestLogin","","","码同学商城登录测试",""
+"passed","Fri Dec 11 16:22:22 CST 2020","Fri Dec 11 16:22:22 CST 2020","159","testcase","test_mtxbuy","TestBuy","","","码同学商城下单提交成供",""
+"passed","Fri Dec 11 16:22:22 CST 2020","Fri Dec 11 16:22:23 CST 2020","754","testcase","test_mtxpay","TestPay","","","支付成功测试",""
+"passed","Fri Dec 11 16:22:21 CST 2020","Fri Dec 11 16:22:21 CST 2020","124","testcase","test_login","TestLogin","","","码同学商城登录测试",""

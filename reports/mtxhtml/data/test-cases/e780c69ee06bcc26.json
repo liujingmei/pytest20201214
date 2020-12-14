@@ -1,0 +1,111 @@
+{
+  "uid" : "e780c69ee06bcc26",
+  "name" : "码同学商城登录测试",
+  "fullName" : "testcase.test_login.TestLogin#test_login",
+  "historyId" : "fd318d9800331d79a470cfe82bd65114",
+  "time" : {
+    "start" : 1607674941325,
+    "stop" : 1607674941461,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1607674941321,
+      "stop" : 1607674941324,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bbf16b78a3a761c",
+      "name" : "log",
+      "source" : "bbf16b78a3a761c.txt",
+      "type" : "text/plain",
+      "size" : 498
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1607674941855,
+      "stop" : 1607674941855,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "码同学商城功能测试"
+  }, {
+    "name" : "story",
+    "value" : "码同学商城登录功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "SD-20200927WMQF"
+  }, {
+    "name" : "thread",
+    "value" : "7184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dic",
+    "value" : "{'accounts': 'yaoyao', 'pwd': '', 'exp': '密码格式 6~18 个字符之间'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e780c69ee06bcc26.json",
+  "parameterValues" : [ "{'accounts': 'yaoyao', 'pwd': '', 'exp': '密码格式 6~18 个字符之间'}" ]
+}

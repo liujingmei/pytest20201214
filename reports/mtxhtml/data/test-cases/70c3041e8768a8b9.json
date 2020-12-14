@@ -1,0 +1,111 @@
+{
+  "uid" : "70c3041e8768a8b9",
+  "name" : "支付成功测试",
+  "fullName" : "testcase.test_mtxpay.TestPay#test_pay",
+  "historyId" : "d0e15aa4fede11d6b4b7c63e7ebd7001",
+  "time" : {
+    "start" : 1607674942484,
+    "stop" : 1607674943238,
+    "duration" : 754
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1607674942165,
+      "stop" : 1607674942484,
+      "duration" : 319
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67c9249d815aa234",
+      "name" : "log",
+      "source" : "67c9249d815aa234.txt",
+      "type" : "text/plain",
+      "size" : 558718
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1607674943240,
+      "stop" : 1607674943240,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "码同学商城接口测试"
+  }, {
+    "name" : "story",
+    "value" : "码同学商城支付接口测试"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_mtxpay"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPay"
+  }, {
+    "name" : "host",
+    "value" : "SD-20200927WMQF"
+  }, {
+    "name" : "thread",
+    "value" : "7184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_mtxpay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70c3041e8768a8b9.json",
+  "parameterValues" : [ ]
+}

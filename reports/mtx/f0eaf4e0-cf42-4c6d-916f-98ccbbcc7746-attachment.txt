@@ -1,0 +1,2 @@
+[32mINFO    [0m root:api_loginmtx.py:16 开始发送登录接口请求，参数是{'accounts': 'yaoyao', 'pwd': '123456'}，header是{'X-Requested-With': 'XMLHttpRequest'}
+[32mINFO    [0m root:api_loginmtx.py:18 获取响应值是{'msg': '密码错误', 'code': -4, 'data': ''}

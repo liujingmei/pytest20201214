@@ -1,0 +1,61 @@
+[ {
+  "uid" : "70c3041e8768a8b9",
+  "name" : "支付成功测试",
+  "time" : {
+    "start" : 1607674942484,
+    "stop" : 1607674943238,
+    "duration" : 754
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3d25873a1c61c5f4",
+  "name" : "码同学商城登录测试",
+  "time" : {
+    "start" : 1607674941591,
+    "stop" : 1607674941715,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7a2fb76704b0ef",
+  "name" : "码同学商城登录测试",
+  "time" : {
+    "start" : 1607674941467,
+    "stop" : 1607674941585,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42e5aaddbd93cd02",
+  "name" : "码同学商城下单提交成供",
+  "time" : {
+    "start" : 1607674942000,
+    "stop" : 1607674942159,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e780c69ee06bcc26",
+  "name" : "码同学商城登录测试",
+  "time" : {
+    "start" : 1607674941325,
+    "stop" : 1607674941461,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6f90c26e6e4bf20",
+  "name" : "码同学商城登录测试",
+  "time" : {
+    "start" : 1607674941721,
+    "stop" : 1607674941852,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
